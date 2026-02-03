@@ -1,4 +1,5 @@
 import { EXCEPTION_404, LAYOUT, PAGE_NOT_FOUND_NAME } from '@/router/constants.js'
+import REACTIVITY_FUNDAMENTALS_ROUTE from '@/router/routes/modules/reactivity-fundamentals.js'
 import TEST_ROUTE from '@/router/routes/modules/test'
 
 export const ROOT_ROUTE = {
@@ -37,4 +38,4 @@ export const PAGE_NOT_FOUND_ROUTE = {
   ],
 }
 
-export const basicRoutes = [ROOT_ROUTE, HOME_ROUTE, TEST_ROUTE, PAGE_NOT_FOUND_ROUTE]
+export const basicRoutes = [ROOT_ROUTE, HOME_ROUTE, REACTIVITY_FUNDAMENTALS_ROUTE, TEST_ROUTE, PAGE_NOT_FOUND_ROUTE]
