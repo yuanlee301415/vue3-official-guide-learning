@@ -1,7 +1,7 @@
 {
-  "name": "vue3-template",
-  "version": "1.0.0",
-  "description": "Vue3 & Tailwindcss@3 Template",
+  "name": "vue3-official-guide-learning",
+  "version": "0.0.0",
+  "description": "Vue3(v3.5) 官方指南学习",
   "private": true,
   "type": "module",
   "scripts": {

@@ -1,5 +1,5 @@
-# Vue3-Template
-> Vue3 & Tailwindcss@3 Template
+# Vue3-official-guide-learning
+> Vue3(v3.5) 官方指南学习
 
 This template should help get you started developing with Vue 3 in Vite.
 
