@@ -14,6 +14,13 @@ const REACTIVITY_FUNDAMENTALS_ROUTE = {
         title: '深层响应性',
       },
     },
+    {
+      path: 'dom-update-timing',
+      component: () => import('@/views/reactivity-fundamentals/dom-update-timing.vue'),
+      meta: {
+        title: 'DOM 更新时机',
+      },
+    },
   ],
 }
 
