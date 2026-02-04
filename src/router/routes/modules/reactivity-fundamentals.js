@@ -21,6 +21,13 @@ const REACTIVITY_FUNDAMENTALS_ROUTE = {
         title: 'DOM 更新时机',
       },
     },
+    {
+      path: 'limitations-of-reactive',
+      component: () => import('@/views/reactivity-fundamentals/limitations-of-reactive.vue'),
+      meta: {
+        title: 'reactive() 的局限性',
+      },
+    },
   ],
 }
 
