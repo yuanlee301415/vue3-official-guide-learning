@@ -2,6 +2,7 @@ import { EXCEPTION_404, LAYOUT, PAGE_NOT_FOUND_NAME } from '@/router/constants.j
 import REACTIVITY_FUNDAMENTALS_ROUTE from '@/router/routes/modules/reactivity-fundamentals.js'
 import COMPUTED_ROUTE from '@/router/routes/modules/computed.js'
 import LIST_ROUTE from '@/router/routes/modules/list.js'
+import WATCHERS_ROUTE from '@/router/routes/modules/watchers.js'
 import TEST_ROUTE from '@/router/routes/modules/test'
 
 export const ROOT_ROUTE = {
@@ -46,6 +47,7 @@ export const basicRoutes = [
   REACTIVITY_FUNDAMENTALS_ROUTE,
   COMPUTED_ROUTE,
   LIST_ROUTE,
+  WATCHERS_ROUTE,
   // Others...
   TEST_ROUTE,
   PAGE_NOT_FOUND_ROUTE,
