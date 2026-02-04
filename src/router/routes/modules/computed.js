@@ -15,6 +15,13 @@ const COMPUTED_ROUTE = {
         title: '计算属性缓存 vs 方法',
       },
     },
+    {
+      path: 'writable-computed',
+      component: () => import('@/views/computed/writable-computed.vue'),
+      meta: {
+        title: '可写计算属性',
+      },
+    },
   ],
 }
 
