@@ -22,6 +22,13 @@ const WATCHERS_ROUTE = {
         title: '深层侦听器',
       },
     },
+    {
+      path: 'once-watchers',
+      component: () => import('@/views/watchers/once-watchers.vue'),
+      meta: {
+        title: '一次性侦听器',
+      },
+    },
   ],
 }
 
