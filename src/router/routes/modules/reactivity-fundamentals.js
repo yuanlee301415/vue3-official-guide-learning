@@ -35,6 +35,13 @@ const REACTIVITY_FUNDAMENTALS_ROUTE = {
         title: '作为 reactive 对象的属性',
       },
     },
+    {
+      path: 'caveat-in-arrays-and-collections',
+      component: () => import('@/views/reactivity-fundamentals/caveat-in-arrays-and-collections.vue'),
+      meta: {
+        title: '数组和集合的注意事项',
+      },
+    },
   ],
 }
 
