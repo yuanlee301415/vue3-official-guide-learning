@@ -28,6 +28,13 @@ const REACTIVITY_FUNDAMENTALS_ROUTE = {
         title: 'reactive() 的局限性',
       },
     },
+    {
+      path: 'ref-unwrapping-as-reactive-object-property',
+      component: () => import('@/views/reactivity-fundamentals/ref-unwrapping-as-reactive-object-property.vue'),
+      meta: {
+        title: '作为 reactive 对象的属性',
+      },
+    },
   ],
 }
 
