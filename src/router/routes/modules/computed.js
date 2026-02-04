@@ -22,6 +22,13 @@ const COMPUTED_ROUTE = {
         title: '可写计算属性',
       },
     },
+    {
+      path: 'previous',
+      component: () => import('@/views/computed/previous.vue'),
+      meta: {
+        title: '获取上一个值',
+      },
+    },
   ],
 }
 
