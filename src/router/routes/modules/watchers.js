@@ -15,6 +15,13 @@ const WATCHERS_ROUTE = {
         title: '侦听数据源类型',
       },
     },
+    {
+      path: 'deep-watchers',
+      component: () => import('@/views/watchers/deep-watchers.vue'),
+      meta: {
+        title: '深层侦听器',
+      },
+    },
   ],
 }
 
