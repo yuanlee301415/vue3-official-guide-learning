@@ -36,6 +36,13 @@ const WATCHERS_ROUTE = {
         title: 'watchEffect()',
       },
     },
+    {
+      path: 'side-effect-cleanup/1-onWatcherCleanup',
+      component: () => import('@/views/watchers/side-effect-cleanup/1-onWatcherCleanup.vue'),
+      meta: {
+        title: '副作用清理_1-onWatcherCleanup',
+      },
+    },
   ],
 }
 
