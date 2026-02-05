@@ -50,6 +50,13 @@ const WATCHERS_ROUTE = {
         title: '副作用清理_2-onCleanup',
       },
     },
+    {
+      path: 'post-watchers',
+      component: () => import('@/views/watchers/post-watchers.vue'),
+      meta: {
+        title: '后置刷新',
+      },
+    },
   ],
 }
 
