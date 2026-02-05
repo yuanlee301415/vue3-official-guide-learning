@@ -3,6 +3,7 @@ import REACTIVITY_FUNDAMENTALS_ROUTE from '@/router/routes/modules/reactivity-fu
 import COMPUTED_ROUTE from '@/router/routes/modules/computed.js'
 import LIST_ROUTE from '@/router/routes/modules/list.js'
 import WATCHERS_ROUTE from '@/router/routes/modules/watchers.js'
+import TEMPLATE_REFS_ROUTE from '@/router/routes/modules/template-refs.js'
 import TEST_ROUTE from '@/router/routes/modules/test'
 
 export const ROOT_ROUTE = {
@@ -48,6 +49,7 @@ export const basicRoutes = [
   COMPUTED_ROUTE,
   LIST_ROUTE,
   WATCHERS_ROUTE,
+  TEMPLATE_REFS_ROUTE,
   // Others...
   TEST_ROUTE,
   PAGE_NOT_FOUND_ROUTE,
