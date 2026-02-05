@@ -14,6 +14,13 @@ const TEMPLATE_REFS_ROUTE = {
         title: '访问模板引用',
       },
     },
+    {
+      path: 'ref-on-component',
+      component: () => import('@/views/template-refs/ref-on-component.vue'),
+      meta: {
+        title: '组件上的 ref',
+      },
+    },
   ],
 }
 
