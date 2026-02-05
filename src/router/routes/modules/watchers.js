@@ -64,6 +64,13 @@ const WATCHERS_ROUTE = {
         title: '同步侦听',
       },
     },
+    {
+      path: 'stopping-a-watcher',
+      component: () => import('@/views/watchers/stopping-a-watcher.vue'),
+      meta: {
+        title: '停止侦听器',
+      },
+    },
   ],
 }
 
