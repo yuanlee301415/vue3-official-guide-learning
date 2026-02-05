@@ -15,6 +15,13 @@ const PROPS_ROUTE = {
         title: '响应式 Props 解构',
       },
     },
+    {
+      path: 'passing-destructured-props-into-functions',
+      component: () => import('@/views/props/passing-destructured-props-into-functions.vue'),
+      meta: {
+        title: '将解析的 props 传递到函数中',
+      },
+    },
   ],
 }
 
