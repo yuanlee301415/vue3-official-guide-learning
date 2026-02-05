@@ -1,5 +1,6 @@
 <script setup>
 import { ref, watchEffect, watch } from 'vue'
+import { getUserApi } from '@/api/index.js'
 
 defineOptions({ name: 'SideEffectCleanup_2-onCleanup' })
 
@@ -23,8 +24,7 @@ watchEffect((onCleanup) => {
 })
 
 async function getUser(userId, signal) {
-  const res = await fetch(`/data/users/user-${userId}.json`, { signal })
-  user.value = await res.json()
+  user.value = await getUserApi(userId, { signal })
   console.log('user:', user.value)
 }
 
