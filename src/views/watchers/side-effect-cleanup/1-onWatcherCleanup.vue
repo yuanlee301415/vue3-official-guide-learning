@@ -1,6 +1,6 @@
 <script setup>
 import { ref, watchEffect, onWatcherCleanup, watch } from 'vue'
-import { getUserApi } from '@/api/index.js'
+import { getUserApi, getRoleApi } from '@/api/index.js'
 
 defineOptions({ name: 'SideEffectCleanup_1-onWatcherCleanup' })
 
@@ -51,8 +51,7 @@ watch(roleId, (newId) => {
 })
 
 async function getRole(roleId, signal) {
-  const res = await fetch(`/data/roles/role-${roleId}.json`, { signal })
-  role.value = await res.json()
+  role.value = await getRoleApi(roleId, { signal })
   console.log('role:', role.value)
 }
 </script>
