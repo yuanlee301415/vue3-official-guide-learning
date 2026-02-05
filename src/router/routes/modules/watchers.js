@@ -29,6 +29,13 @@ const WATCHERS_ROUTE = {
         title: '一次性侦听器',
       },
     },
+    {
+      path: 'watcheffect',
+      component: () => import('@/views/watchers/watcheffect.vue'),
+      meta: {
+        title: 'watchEffect()',
+      },
+    },
   ],
 }
 

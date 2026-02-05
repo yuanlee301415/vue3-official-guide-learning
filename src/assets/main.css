@@ -6,7 +6,7 @@
 
 @layer base {
   h1 {
-    @apply text-xl font-bold;
+    @apply text-xl font-bold leading-10;
   }
   button {
     @apply rounded outline-none border border-slate-600 hover:border-gray-50 shadow-sm bg-black hover:bg-slate-950 hover:text-gray-50 px-2 py-1 disabled:cursor-not-allowed disabled:opacity-50;
