@@ -28,6 +28,13 @@ const TEMPLATE_REFS_ROUTE = {
         title: 'v-for 中的模板引用',
       },
     },
+    {
+      path: 'function-refs',
+      component: () => import('@/views/template-refs/function-refs.vue'),
+      meta: {
+        title: '函数模板引用',
+      },
+    },
   ],
 }
 
