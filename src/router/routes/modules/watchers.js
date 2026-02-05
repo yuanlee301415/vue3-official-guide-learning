@@ -57,6 +57,13 @@ const WATCHERS_ROUTE = {
         title: '后置刷新',
       },
     },
+    {
+      path: 'sync-watchers',
+      component: () => import('@/views/watchers/sync-watchers.vue'),
+      meta: {
+        title: '同步侦听',
+      },
+    },
   ],
 }
 
