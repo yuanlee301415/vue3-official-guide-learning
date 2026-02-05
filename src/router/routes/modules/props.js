@@ -22,6 +22,13 @@ const PROPS_ROUTE = {
         title: '将解析的 props 传递到函数中',
       },
     },
+    {
+      path: 'binding-multiple-properties-using-an-object',
+      component: () => import('@/views/props/binding-multiple-properties-using-an-object.vue'),
+      meta: {
+        title: '使用一个对象绑定多个 prop',
+      },
+    },
   ],
 }
 
