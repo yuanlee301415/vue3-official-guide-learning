@@ -21,6 +21,13 @@ const TEMPLATE_REFS_ROUTE = {
         title: '组件上的 ref',
       },
     },
+    {
+      path: 'refs-inside-v-for',
+      component: () => import('@/views/template-refs/refs-inside-v-for.vue'),
+      meta: {
+        title: 'v-for 中的模板引用',
+      },
+    },
   ],
 }
 
