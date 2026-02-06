@@ -36,6 +36,13 @@ const SLOTS_ROUTE = {
         title: '动态插槽名',
       },
     },
+    {
+      path: 'scoped-slots/1-default',
+      component: () => import('@/views/slots/scoped-slots/1-default.vue'),
+      meta: {
+        title: '作用域插槽_1-默认插槽',
+      },
+    },
   ],
 }
 
