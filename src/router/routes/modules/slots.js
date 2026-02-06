@@ -22,6 +22,13 @@ const SLOTS_ROUTE = {
         title: '具名插槽',
       },
     },
+    {
+      path: 'conditional-slots',
+      component: () => import('@/views/slots/conditional-slots.vue'),
+      meta: {
+        title: '条件插槽',
+      },
+    },
   ],
 }
 
