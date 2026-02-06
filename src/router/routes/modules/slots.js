@@ -43,6 +43,13 @@ const SLOTS_ROUTE = {
         title: '作用域插槽_1-默认插槽',
       },
     },
+    {
+      path: 'scoped-slots/2-named-scoped-slots',
+      component: () => import('@/views/slots/scoped-slots/2-named-scoped-slots.vue'),
+      meta: {
+        title: '作用域插槽_2-具名插槽',
+      },
+    },
   ],
 }
 
