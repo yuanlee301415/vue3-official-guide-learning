@@ -22,6 +22,13 @@ const V_MODEL_ROUTE = {
         title: '底层机制',
       },
     },
+    {
+      path: 'v-model-arguments',
+      component: () => import('@/views/v-model/v-model-arguments.vue'),
+      meta: {
+        title: 'v-model 的参数',
+      },
+    },
   ],
 }
 
