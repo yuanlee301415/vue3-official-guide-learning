@@ -15,6 +15,13 @@ const ATTRS_ROUTE = {
         title: 'Attributes 继承',
       },
     },
+    {
+      path: 'class-and-style-merging',
+      component: () => import('@/views/attrs/class-and-style-merging.vue'),
+      meta: {
+        title: '对 class 和 style 合并',
+      },
+    },
   ],
 }
 
