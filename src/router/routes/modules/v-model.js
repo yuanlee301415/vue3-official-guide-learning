@@ -15,6 +15,13 @@ const V_MODEL_ROUTE = {
         title: '基本用法',
       },
     },
+    {
+      path: 'under-the-hood',
+      component: () => import('@/views/v-model/under-the-hood.vue'),
+      meta: {
+        title: '底层机制',
+      },
+    },
   ],
 }
 
