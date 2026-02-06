@@ -22,6 +22,13 @@ const ATTRS_ROUTE = {
         title: '对 class 和 style 合并',
       },
     },
+    {
+      path: 'v-on-listener-inheritance',
+      component: () => import('@/views/attrs/v-on-listener-inheritance.vue'),
+      meta: {
+        title: 'v-on 监听器继承',
+      },
+    },
   ],
 }
 
