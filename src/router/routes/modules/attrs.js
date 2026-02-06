@@ -57,6 +57,13 @@ const ATTRS_ROUTE = {
         title: '多根节点的 Attributes 继承',
       },
     },
+    {
+      path: 'accessing-fallthrough-attributes-in-javascript',
+      component: () => import('@/views/attrs/accessing-fallthrough-attributes-in-javascript.vue'),
+      meta: {
+        title: '在 JS 中访问 Attributes',
+      },
+    },
   ],
 }
 
