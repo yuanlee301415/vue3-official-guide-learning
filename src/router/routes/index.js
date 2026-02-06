@@ -7,6 +7,7 @@ import TEMPLATE_REFS_ROUTE from '@/router/routes/modules/template-refs.js'
 import PROPS_ROUTE from '@/router/routes/modules/props.js'
 import V_MODEL_ROUTE from '@/router/routes/modules/v-model.js'
 import ATTRS_ROUTE from '@/router/routes/modules/attrs.js'
+import SLOTS_ROUTE from '@/router/routes/modules/slots.js'
 import TEST_ROUTE from '@/router/routes/modules/test'
 
 export const ROOT_ROUTE = {
@@ -56,6 +57,7 @@ export const basicRoutes = [
   PROPS_ROUTE,
   V_MODEL_ROUTE,
   ATTRS_ROUTE,
+  SLOTS_ROUTE,
   // Others...
   TEST_ROUTE,
   PAGE_NOT_FOUND_ROUTE,
