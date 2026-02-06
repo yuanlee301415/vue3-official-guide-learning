@@ -29,6 +29,13 @@ const ATTRS_ROUTE = {
         title: 'v-on 监听器继承',
       },
     },
+    {
+      path: 'nested-component-inheritance',
+      component: () => import('@/views/attrs/nested-component-inheritance.vue'),
+      meta: {
+        title: '深层组件继承',
+      },
+    },
   ],
 }
 
