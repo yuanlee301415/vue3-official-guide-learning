@@ -29,6 +29,13 @@ const V_MODEL_ROUTE = {
         title: 'v-model 的参数',
       },
     },
+    {
+      path: 'multiple-v-model-bindings',
+      component: () => import('@/views/v-model/multiple-v-model-bindings.vue'),
+      meta: {
+        title: '多个 v-model 的绑定',
+      },
+    },
   ],
 }
 
