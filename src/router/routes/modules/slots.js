@@ -15,6 +15,13 @@ const SLOTS_ROUTE = {
         title: '插槽内容与出口',
       },
     },
+    {
+      path: 'named-slots',
+      component: () => import('@/views/slots/named-slots.vue'),
+      meta: {
+        title: '具名插槽',
+      },
+    },
   ],
 }
 
