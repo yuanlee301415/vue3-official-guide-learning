@@ -29,6 +29,13 @@ const SLOTS_ROUTE = {
         title: '条件插槽',
       },
     },
+    {
+      path: 'dynamic-slot-names',
+      component: () => import('@/views/slots/dynamic-slot-names.vue'),
+      meta: {
+        title: '动态插槽名',
+      },
+    },
   ],
 }
 
