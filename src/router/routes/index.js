@@ -5,6 +5,7 @@ import LIST_ROUTE from '@/router/routes/modules/list.js'
 import WATCHERS_ROUTE from '@/router/routes/modules/watchers.js'
 import TEMPLATE_REFS_ROUTE from '@/router/routes/modules/template-refs.js'
 import PROPS_ROUTE from '@/router/routes/modules/props.js'
+import V_MODEL_ROUTE from '@/router/routes/modules/v-model.js'
 import TEST_ROUTE from '@/router/routes/modules/test'
 
 export const ROOT_ROUTE = {
@@ -52,6 +53,7 @@ export const basicRoutes = [
   WATCHERS_ROUTE,
   TEMPLATE_REFS_ROUTE,
   PROPS_ROUTE,
+  V_MODEL_ROUTE,
   // Others...
   TEST_ROUTE,
   PAGE_NOT_FOUND_ROUTE,
