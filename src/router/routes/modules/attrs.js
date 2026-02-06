@@ -36,6 +36,13 @@ const ATTRS_ROUTE = {
         title: '深层组件继承',
       },
     },
+    {
+      path: 'disabling-attribute-inheritance/1-disable',
+      component: () => import('@/views/attrs/disabling-attribute-inheritance/1-disable.vue'),
+      meta: {
+        title: '禁用 Attributes 继承_1-禁用',
+      },
+    },
   ],
 }
 
