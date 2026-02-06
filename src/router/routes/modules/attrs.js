@@ -50,6 +50,13 @@ const ATTRS_ROUTE = {
         title: '禁用 Attributes 继承_2-$attrs',
       },
     },
+    {
+      path: 'attribute-inheritance-on-multiple-root-nodes',
+      component: () => import('@/views/attrs/attribute-inheritance-on-multiple-root-nodes.vue'),
+      meta: {
+        title: '多根节点的 Attributes 继承',
+      },
+    },
   ],
 }
 
