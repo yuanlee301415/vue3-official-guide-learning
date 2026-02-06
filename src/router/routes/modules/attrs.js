@@ -43,6 +43,13 @@ const ATTRS_ROUTE = {
         title: '禁用 Attributes 继承_1-禁用',
       },
     },
+    {
+      path: 'disabling-attribute-inheritance/2-$attrs',
+      component: () => import('@/views/attrs/disabling-attribute-inheritance/2-$attrs.vue'),
+      meta: {
+        title: '禁用 Attributes 继承_2-$attrs',
+      },
+    },
   ],
 }
 
