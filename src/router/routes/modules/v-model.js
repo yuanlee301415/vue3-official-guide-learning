@@ -36,6 +36,13 @@ const V_MODEL_ROUTE = {
         title: '多个 v-model 的绑定',
       },
     },
+    {
+      path: 'handling-v-model-modifiers',
+      component: () => import('@/views/v-model/handling-v-model-modifiers.vue'),
+      meta: {
+        title: '处理 v-model 修饰符',
+      },
+    },
   ],
 }
 
