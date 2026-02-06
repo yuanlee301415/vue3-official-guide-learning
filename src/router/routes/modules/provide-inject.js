@@ -15,6 +15,13 @@ const PROVIDE_INJECT_ROUTE = {
         title: 'Prop 逐级透传问题',
       },
     },
+    {
+      path: 'provide',
+      component: () => import('@/views/provide-inject/provide.vue'),
+      meta: {
+        title: 'Provide(提供)',
+      },
+    },
   ],
 }
 
