@@ -12,7 +12,7 @@ const COMPOSABLES_ROUTE = {
       path: 'mouse-tracker-example',
       component: () => import('@/views/composables/mouse-tracker-example/index.vue'),
       meta: {
-        title: '鼠标示例器',
+        title: '鼠标跟踪器示例',
       },
     },
   ],

@@ -7,7 +7,7 @@ const { x, y } = useMouse()
 
 <template>
   <div>
-    <h1>鼠标示例器</h1>
+    <h1>鼠标跟踪器示例</h1>
     <hr />
     <code>Mouse position is: {{ x }}, {{ y }}</code>
   </div>
