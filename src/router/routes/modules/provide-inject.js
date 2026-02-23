@@ -36,6 +36,13 @@ const PROVIDE_INJECT_ROUTE = {
         title: '注入默认值',
       },
     },
+    {
+      path: 'working-with-reactivity',
+      component: () => import('@/views/provide-inject/working-with-reactivity/index.vue'),
+      meta: {
+        title: '和响应式数据配合使用',
+      },
+    },
   ],
 }
 
