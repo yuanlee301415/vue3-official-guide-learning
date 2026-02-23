@@ -22,6 +22,13 @@ const CUSTOM_DIRECTIVES_ROUTE = {
         title: '指令钩子',
       },
     },
+    {
+      path: 'function-shorthand',
+      component: () => import('@/views/custom-directives/function-shorthand.vue'),
+      meta: {
+        title: '简化形式',
+      },
+    },
   ],
 }
 
