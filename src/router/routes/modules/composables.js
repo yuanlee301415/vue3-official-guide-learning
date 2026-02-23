@@ -15,6 +15,13 @@ const COMPOSABLES_ROUTE = {
         title: '鼠标跟踪器示例',
       },
     },
+    {
+      path: 'async-state-example',
+      component: () => import('@/views/composables/async-state-example/index.vue'),
+      meta: {
+        title: '异步状态示例',
+      },
+    },
   ],
 }
 
