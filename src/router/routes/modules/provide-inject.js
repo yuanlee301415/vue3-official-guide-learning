@@ -29,6 +29,13 @@ const PROVIDE_INJECT_ROUTE = {
         title: 'Inject(注入)',
       },
     },
+    {
+      path: 'injection-default-values',
+      component: () => import('@/views/provide-inject/injection-default-values/index.vue'),
+      meta: {
+        title: '注入默认值',
+      },
+    },
   ],
 }
 
