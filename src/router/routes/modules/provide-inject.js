@@ -43,6 +43,13 @@ const PROVIDE_INJECT_ROUTE = {
         title: '和响应式数据配合使用',
       },
     },
+    {
+      path: 'working-with-symbol-keys',
+      component: () => import('@/views/provide-inject/working-with-symbol-keys/index.vue'),
+      meta: {
+        title: '使用 Symbol 作注入名',
+      },
+    },
   ],
 }
 
