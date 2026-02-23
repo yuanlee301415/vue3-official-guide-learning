@@ -1,18 +1,19 @@
-import { EXCEPTION_404, LAYOUT, PAGE_NOT_FOUND_NAME } from '@/router/constants.js'
-import REACTIVITY_FUNDAMENTALS_ROUTE from '@/router/routes/modules/reactivity-fundamentals.js'
-import COMPUTED_ROUTE from '@/router/routes/modules/computed.js'
-import LIST_ROUTE from '@/router/routes/modules/list.js'
-import WATCHERS_ROUTE from '@/router/routes/modules/watchers.js'
-import TEMPLATE_REFS_ROUTE from '@/router/routes/modules/template-refs.js'
-import PROPS_ROUTE from '@/router/routes/modules/props.js'
-import V_MODEL_ROUTE from '@/router/routes/modules/v-model.js'
-import ATTRS_ROUTE from '@/router/routes/modules/attrs.js'
-import SLOTS_ROUTE from '@/router/routes/modules/slots.js'
-import PROVIDE_INJECT_ROUTE from '@/router/routes/modules/provide-inject.js'
-import ASYNC_ROUTE from '@/router/routes/modules/async.js'
-import COMPOSABLES_ROUTE from '@/router/routes/modules/composables.js'
-import CUSTOM_DIRECTIVES_ROUTE from '@/router/routes/modules/custom-directives.js'
-import TEST_ROUTE from '@/router/routes/modules/test'
+import { EXCEPTION_404, LAYOUT, PAGE_NOT_FOUND_NAME } from '../constants.js'
+import REACTIVITY_FUNDAMENTALS_ROUTE from './modules/reactivity-fundamentals.js'
+import COMPUTED_ROUTE from './modules/computed.js'
+import LIST_ROUTE from './modules/list.js'
+import WATCHERS_ROUTE from './modules/watchers.js'
+import TEMPLATE_REFS_ROUTE from './modules/template-refs.js'
+import PROPS_ROUTE from './modules/props.js'
+import V_MODEL_ROUTE from './modules/v-model.js'
+import ATTRS_ROUTE from './modules/attrs.js'
+import SLOTS_ROUTE from './modules/slots.js'
+import PROVIDE_INJECT_ROUTE from './modules/provide-inject.js'
+import ASYNC_ROUTE from './modules/async.js'
+import COMPOSABLES_ROUTE from './modules/composables.js'
+import CUSTOM_DIRECTIVES_ROUTE from './modules/custom-directives.js'
+import PLUGINS_ROUTE from './modules/plugins.js'
+import TEST_ROUTE from './modules/test'
 
 export const ROOT_ROUTE = {
   path: '/',
@@ -66,6 +67,7 @@ export const basicRoutes = [
   ASYNC_ROUTE,
   COMPOSABLES_ROUTE,
   CUSTOM_DIRECTIVES_ROUTE,
+  PLUGINS_ROUTE,
   // Others...
   TEST_ROUTE,
   PAGE_NOT_FOUND_ROUTE,
