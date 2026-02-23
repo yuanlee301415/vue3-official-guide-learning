@@ -11,6 +11,7 @@ import SLOTS_ROUTE from '@/router/routes/modules/slots.js'
 import PROVIDE_INJECT_ROUTE from '@/router/routes/modules/provide-inject.js'
 import ASYNC_ROUTE from '@/router/routes/modules/async.js'
 import COMPOSABLES_ROUTE from '@/router/routes/modules/composables.js'
+import CUSTOM_DIRECTIVES_ROUTE from '@/router/routes/modules/custom-directives.js'
 import TEST_ROUTE from '@/router/routes/modules/test'
 
 export const ROOT_ROUTE = {
@@ -64,6 +65,7 @@ export const basicRoutes = [
   PROVIDE_INJECT_ROUTE,
   ASYNC_ROUTE,
   COMPOSABLES_ROUTE,
+  CUSTOM_DIRECTIVES_ROUTE,
   // Others...
   TEST_ROUTE,
   PAGE_NOT_FOUND_ROUTE,
