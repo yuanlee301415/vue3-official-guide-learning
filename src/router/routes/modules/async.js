@@ -15,6 +15,13 @@ const ASYNC_ROUTE = {
         title: '基本用法',
       },
     },
+    {
+      path: 'loading-and-error-states',
+      component: () => import('@/views/async/loading-and-error-states/index.vue'),
+      meta: {
+        title: '加载和错误状态',
+      },
+    },
   ],
 }
 
