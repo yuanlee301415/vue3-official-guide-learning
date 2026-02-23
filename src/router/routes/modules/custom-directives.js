@@ -29,6 +29,13 @@ const CUSTOM_DIRECTIVES_ROUTE = {
         title: '简化形式',
       },
     },
+    {
+      path: 'usage-on-components',
+      component: () => import('@/views/custom-directives/usage-on-components/index.vue'),
+      meta: {
+        title: '在组件上使用',
+      },
+    },
   ],
 }
 
