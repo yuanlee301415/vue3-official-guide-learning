@@ -22,6 +22,13 @@ const PROVIDE_INJECT_ROUTE = {
         title: 'Provide(提供)',
       },
     },
+    {
+      path: 'inject',
+      component: () => import('@/views/provide-inject/inject/index.vue'),
+      meta: {
+        title: 'Inject(注入)',
+      },
+    },
   ],
 }
 
