@@ -9,6 +9,7 @@ import V_MODEL_ROUTE from '@/router/routes/modules/v-model.js'
 import ATTRS_ROUTE from '@/router/routes/modules/attrs.js'
 import SLOTS_ROUTE from '@/router/routes/modules/slots.js'
 import PROVIDE_INJECT_ROUTE from '@/router/routes/modules/provide-inject.js'
+import ASYNC_ROUTE from '@/router/routes/modules/async.js'
 import TEST_ROUTE from '@/router/routes/modules/test'
 
 export const ROOT_ROUTE = {
@@ -60,6 +61,7 @@ export const basicRoutes = [
   ATTRS_ROUTE,
   SLOTS_ROUTE,
   PROVIDE_INJECT_ROUTE,
+  ASYNC_ROUTE,
   // Others...
   TEST_ROUTE,
   PAGE_NOT_FOUND_ROUTE,
