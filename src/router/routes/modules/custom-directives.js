@@ -15,6 +15,13 @@ const CUSTOM_DIRECTIVES_ROUTE = {
         title: '介绍',
       },
     },
+    {
+      path: 'directive-hooks',
+      component: () => import('@/views/custom-directives/directive-hooks.vue'),
+      meta: {
+        title: '指令钩子',
+      },
+    },
   ],
 }
 
