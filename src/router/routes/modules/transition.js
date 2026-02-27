@@ -15,6 +15,13 @@ const TRANSITION_ROUTE = {
         title: 'Transition 组件',
       },
     },
+    {
+      path: 'named-transitions',
+      component: () => import('@/views/transition/named-transitions.vue'),
+      meta: {
+        title: '为过滤效果命名',
+      },
+    },
   ],
 }
 
