@@ -22,6 +22,13 @@ const TRANSITION_ROUTE = {
         title: '为过滤效果命名',
       },
     },
+    {
+      path: 'css-transitions',
+      component: () => import('@/views/transition/css-transitions.vue'),
+      meta: {
+        title: '基于 CSS 的过滤效果',
+      },
+    },
   ],
 }
 
