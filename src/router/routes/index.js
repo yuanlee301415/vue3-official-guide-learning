@@ -14,6 +14,7 @@ import COMPOSABLES_ROUTE from './modules/composables.js'
 import CUSTOM_DIRECTIVES_ROUTE from './modules/custom-directives.js'
 import PLUGINS_ROUTE from './modules/plugins.js'
 import TRANSITION_ROUTE from './modules/transition.js'
+import TELEPORT_ROUTE from './modules/teleport.js'
 import TEST_ROUTE from './modules/test'
 
 export const ROOT_ROUTE = {
@@ -70,6 +71,7 @@ export const basicRoutes = [
   CUSTOM_DIRECTIVES_ROUTE,
   PLUGINS_ROUTE,
   TRANSITION_ROUTE,
+  TELEPORT_ROUTE,
   // Others...
   TEST_ROUTE,
   PAGE_NOT_FOUND_ROUTE,
