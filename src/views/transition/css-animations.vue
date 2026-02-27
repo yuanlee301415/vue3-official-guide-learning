@@ -7,7 +7,11 @@ const show = ref(true)
 <template>
   <div>
     <h1>CSS animation</h1>
-    <pre></pre>
+    <pre>
+      原生 CSS 动画和 CSS transition 的应用方式基本上是相同的，只有一点不同，那就是 *-enter-from 不是在元素插入后立即移除，而是在一个 animationend 事件触发时被移除。
+
+      对于大多数的 CSS 动画，我们可以简单地在 *-enter-active 和 *-leave-active class 下声明它们。
+    </pre>
 
     <hr />
 

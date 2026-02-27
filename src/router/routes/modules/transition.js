@@ -29,6 +29,13 @@ const TRANSITION_ROUTE = {
         title: '基于 CSS 的过滤效果',
       },
     },
+    {
+      path: 'css-animations',
+      component: () => import('@/views/transition/css-animations.vue'),
+      meta: {
+        title: 'CSS animation',
+      },
+    },
   ],
 }
 
