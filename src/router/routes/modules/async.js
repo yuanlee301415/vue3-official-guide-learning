@@ -6,6 +6,7 @@ const ASYNC_ROUTE = {
   component: LAYOUT,
   meta: {
     title: '异步组件',
+    group: '深入组件',
   },
   children: [
     {

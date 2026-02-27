@@ -5,6 +5,7 @@ const TEMPLATE_REFS_ROUTE = {
   component: LAYOUT,
   meta: {
     title: '模板引用',
+    group: '基础',
   },
   children: [
     {

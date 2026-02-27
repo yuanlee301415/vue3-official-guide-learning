@@ -6,6 +6,7 @@ const PLUGINS_ROUTE = {
   component: LAYOUT,
   meta: {
     title: '插件',
+    group: '逻辑利用',
   },
   children: [
     {

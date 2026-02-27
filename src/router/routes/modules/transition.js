@@ -6,6 +6,7 @@ const TRANSITION_ROUTE = {
   component: LAYOUT,
   meta: {
     title: 'Transition',
+    group: '内置组件',
   },
   children: [
     {

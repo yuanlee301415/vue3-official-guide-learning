@@ -6,6 +6,7 @@ const V_MODEL_ROUTE = {
   component: LAYOUT,
   meta: {
     title: '组件 v-model',
+    group: '深入组件',
   },
   children: [
     {

@@ -17,7 +17,10 @@ const routeStore = useRouteStore()
       <h2 class="font-bold text-base ml-2">{{ VITE_APP_TITLE }}</h2>
     </div>
     <nav class="flex-1 overflow-y-auto select-none">
-      <Menu :menus="routeStore.menus" />
+      <template v-for="(group, idx) of routeStore.menus" :key="idx">
+        <h3 class="text-white pl-4 mt-5 leading-4">{{ group[0] }}</h3>
+        <Menu :menus="group[1]" />
+      </template>
     </nav>
   </aside>
 </template>

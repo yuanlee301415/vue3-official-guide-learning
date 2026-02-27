@@ -6,6 +6,7 @@ const COMPOSABLES_ROUTE = {
   component: LAYOUT,
   meta: {
     title: '组合式函数',
+    group: '逻辑利用',
   },
   children: [
     {

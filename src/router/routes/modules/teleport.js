@@ -6,6 +6,7 @@ const TELEPORT_ROUTE = {
   component: LAYOUT,
   meta: {
     title: 'Teleport',
+    group: '内置组件',
   },
   children: [
     {

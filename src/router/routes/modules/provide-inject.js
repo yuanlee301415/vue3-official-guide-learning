@@ -6,6 +6,7 @@ const PROVIDE_INJECT_ROUTE = {
   component: LAYOUT,
   meta: {
     title: '依赖注入',
+    group: '深入组件',
   },
   children: [
     {

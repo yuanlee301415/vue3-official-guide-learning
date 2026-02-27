@@ -22,6 +22,12 @@ export class Menu {
   depth
 
   /**
+   * 分组名称
+   * @type {string}
+   */
+  group
+
+  /**
    * 子菜单
    * @type {Menu[]|null}
    */
@@ -31,10 +37,11 @@ export class Menu {
    * @param {Menu} _
    */
   constructor(_) {
-    const { path, title, depth, children } = { ..._ }
+    const { path, title, depth, group, children } = { ..._ }
     this.path = path
     this.title = title
     this.depth = depth
+    this.group = group
     this.children = children
   }
 

@@ -6,6 +6,7 @@ const LIST_ROUTE = {
   component: LAYOUT,
   meta: {
     title: '列表渲染',
+    group: '基础',
   },
   children: [
     {

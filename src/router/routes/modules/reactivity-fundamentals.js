@@ -5,6 +5,7 @@ const REACTIVITY_FUNDAMENTALS_ROUTE = {
   component: LAYOUT,
   meta: {
     title: '响应式基础',
+    group: '基础',
   },
   children: [
     {

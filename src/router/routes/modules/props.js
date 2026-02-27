@@ -6,6 +6,7 @@ const PROPS_ROUTE = {
   component: LAYOUT,
   meta: {
     title: 'Props',
+    group: '深入组件',
   },
   children: [
     {

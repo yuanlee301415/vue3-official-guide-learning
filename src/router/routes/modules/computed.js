@@ -6,6 +6,7 @@ const COMPUTED_ROUTE = {
   component: LAYOUT,
   meta: {
     title: '计算属性',
+    group: '基础',
   },
   children: [
     {

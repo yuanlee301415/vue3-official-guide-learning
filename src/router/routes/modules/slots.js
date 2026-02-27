@@ -6,6 +6,7 @@ const SLOTS_ROUTE = {
   component: LAYOUT,
   meta: {
     title: '插槽',
+    group: '深入组件',
   },
   children: [
     {

@@ -6,6 +6,7 @@ const CUSTOM_DIRECTIVES_ROUTE = {
   component: LAYOUT,
   meta: {
     title: '自定义指令',
+    group: '逻辑利用',
   },
   children: [
     {

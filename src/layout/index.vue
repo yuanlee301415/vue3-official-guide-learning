@@ -7,7 +7,7 @@ defineOptions({ name: 'LayoutContainer' })
 </script>
 
 <template>
-  <section class="layout-container flex flex-col size-full overflow-hidden" style="--side-width: 210px">
+  <section class="layout-container flex flex-col size-full overflow-hidden" style="--side-width: 300px">
     <LayoutSideBar />
 
     <main class="h-full flex flex-col overflow-hidden ml-[--side-width]">

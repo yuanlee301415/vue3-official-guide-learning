@@ -6,6 +6,7 @@ const ATTRS_ROUTE = {
   component: LAYOUT,
   meta: {
     title: '透传 Attributes',
+    group: '深入组件',
   },
   children: [
     {

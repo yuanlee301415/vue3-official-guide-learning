@@ -6,6 +6,7 @@ const WATCHERS_ROUTE = {
   component: LAYOUT,
   meta: {
     title: '侦听器',
+    group: '基础',
   },
   children: [
     {
