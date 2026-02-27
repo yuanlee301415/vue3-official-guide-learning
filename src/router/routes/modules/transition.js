@@ -36,6 +36,13 @@ const TRANSITION_ROUTE = {
         title: 'CSS animation',
       },
     },
+    {
+      path: 'nested-transitions-and-explicit-transition-durations',
+      component: () => import('@/views/transition/nested-transitions-and-explicit-transition-durations.vue'),
+      meta: {
+        title: '深层级过渡与显式过渡时长',
+      },
+    },
   ],
 }
 
