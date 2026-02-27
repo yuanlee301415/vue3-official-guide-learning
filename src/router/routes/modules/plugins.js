@@ -15,6 +15,13 @@ const PLUGINS_ROUTE = {
         title: '介绍',
       },
     },
+    {
+      path: 'writing-a-plugin',
+      component: () => import('@/views/plugins/writing-a-plugin.vue'),
+      meta: {
+        title: '编写一个插件',
+      },
+    },
   ],
 }
 
