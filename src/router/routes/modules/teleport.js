@@ -15,6 +15,13 @@ const TELEPORT_ROUTE = {
         title: '基本用法',
       },
     },
+    {
+      path: 'multiple-teleports-on-the-same-target',
+      component: () => import('@/views/teleport/multiple-teleports-on-the-same-target.vue'),
+      meta: {
+        title: '多个 Teleport 共享目标',
+      },
+    },
   ],
 }
 
