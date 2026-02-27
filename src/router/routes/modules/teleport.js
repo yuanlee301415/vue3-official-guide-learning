@@ -22,6 +22,13 @@ const TELEPORT_ROUTE = {
         title: '多个 Teleport 共享目标',
       },
     },
+    {
+      path: 'deferred-teleport',
+      component: () => import('@/views/teleport/deferred-teleport.vue'),
+      meta: {
+        title: '延迟解析的 Teleport',
+      },
+    },
   ],
 }
 
